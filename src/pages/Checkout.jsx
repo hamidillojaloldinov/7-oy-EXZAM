@@ -185,7 +185,7 @@ function Checkout() {
                       <td className="sm:p-4 w-24">
                         <img
                           src={product.categoryImage.desktop}
-                          className="w-24 sm:w-2 rounded-lg"
+                          className="w-24 rounded-lg"
                           alt="Apple Watch"
                         />
                       </td>
