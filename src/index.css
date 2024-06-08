@@ -1,0 +1,440 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  position: relative;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url(./Fonts/Manrope-Medium.ttf);
+}
+* {
+  font-family: "Manrope";
+}
+
+.link {
+  font-size: 13px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+header {
+  background-color: #141414;
+}
+
+.PPP {
+  color: #ffffff;
+}
+
+.h1 {
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.card {
+  border-radius: 10px;
+  width: 380px;
+  height: 240px;
+  background: #f1f1f1;
+}
+
+.card1 {
+  border-radius: 10px;
+  width: 380px;
+  height: 240px;
+  background: #f1f1f1;
+}
+
+.card2 {
+  border-radius: 10px;
+  width: 380px;
+  height: 240px;
+  background: #f1f1f1;
+}
+
+.container {
+  margin-top: 300px;
+  margin-left: 140px;
+}
+
+.card_img {
+  width: 380px;
+  position: absolute;
+  margin-top: -160px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.main_section {
+  color: white;
+  background: #101010;
+}
+
+.btn1 {
+  width: 100%;
+  max-width: 160px;
+  padding: 15px 30px;
+  color: #fff;
+  background-color: #d87d4a;
+}
+
+.btn1:hover {
+  background-color: #fbaf85;
+}
+
+.btn2 {
+  text-align: center;
+  margin-left: 710px;
+  padding: 15px 30px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.btn10 {
+  padding: 10px 30px;
+  width: 180px;
+  height: 50px;
+  text-align: center;
+  margin-left: 14px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.btn2:hover {
+  background-color: #4c4c4c;
+  color: white;
+}
+
+.btn10:hover {
+  background-color: #4c4c4c;
+  color: white;
+}
+
+.btn3 {
+  color: gray;
+}
+
+.main {
+  margin-top: 100px;
+}
+
+.img_ {
+  margin-left: -10px;
+}
+
+.btn3::after {
+  content: url("../public/shared/icon-arrow-right.svg");
+  padding-left: 13px;
+}
+
+.btn3:hover {
+  color: #d87d4a;
+}
+
+.letter_space {
+  color: gray;
+  letter-spacing: 10px;
+}
+
+.letter_space_2 {
+  color: #d87d4a;
+  letter-spacing: 10px;
+}
+
+.letter_space_3 {
+  color: #d87d4a;
+  letter-spacing: 1px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.header {
+  background-color: #101010;
+  padding: 20px;
+}
+
+.footer {
+  margin-top: 20px;
+  background-color: #101010;
+}
+
+.nav_link {
+  color: white;
+}
+.nav_link:hover {
+  color: #d87d4a;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.near-footer-title {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 445px;
+  line-height: 44px;
+  letter-spacing: 1.43px;
+  font-size: 45px;
+}
+
+.img_hero {
+  margin-top: 150px;
+  margin-left: 160px;
+}
+
+.links_img_wrapper {
+  margin-top: 180px;
+  margin-bottom: 120px;
+}
+
+.div {
+  margin-top: 200px;
+}
+
+.p1 {
+  margin-top: 120px;
+  position: absolute;
+}
+
+.link_img_item {
+  width: 400px;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding-bottom: 30px;
+}
+
+.link_img_item_img {
+  margin-top: -40px;
+}
+
+.my_img {
+  height: 570px;
+  background: #d87d4a;
+}
+
+.h2 {
+  margin-top: 50px;
+  font-size: 56px;
+  margin-left: 700px;
+}
+
+.background-links {
+  background-color: #101010;
+}
+
+.advice_item {
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: center;
+}
+
+.p {
+  color: #fff;
+  margin-top: 30px;
+  margin-left: 710px;
+}
+
+.advice_item {
+  padding: 40px 80px;
+  background-color: #afde89;
+}
+
+input {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid gray;
+  outline-color: #d87d4a;
+}
+
+span {
+  position: absolute;
+  margin-top: -25px;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.radio_site {
+  padding: 10px 20px;
+  border: 1px solid gray;
+}
+
+.radio_site:hover {
+  border: 1px solid #d87d4a;
+}
+
+@media screen and (max-width: 900px) {
+  .text_side {
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+    h2 {
+      width: 100%;
+      font-size: 16px;
+    }
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 2px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+@media (max-width: 375px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.overlay {
+  backdrop-filter: blur(3px);
+  position: flex;
+  position: fixed;
+  width: 100%;
+  top: 100px;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  padding: 0 200px 0 0;
+  z-index: 100;
+}
+
+.overlay2 {
+  backdrop-filter: blur(3px);
+  position: flex;
+  background-color: rgba(51, 51, 51, 0.5);
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.overlay3 {
+  backdrop-filter: blur(1px);
+  position: flex;
+  position: fixed;
+  width: 100%;
+  top: 100px;
+  left: 0;
+  bottom: 0;
+  justify-content: end;
+  align-items: start;
+  padding: 0 200px 0 0;
+  z-index: 100;
+}
+
+.modal {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.modal input {
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 0.5rem 0.5rem;
+}
+
+.modal label span {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.gender {
+  display: flex;
+  gap: 1rem;
+}
+
+.gender label {
+  display: flex;
+  align-items: center;
+}
+
+.modal-btn {
+  background: #f45050;
+  color: #fff;
+  border: 0;
+  font-family: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  align-self: center;
+  margin-top: 2rem;
+  border-radius: 0.2rem;
+}
